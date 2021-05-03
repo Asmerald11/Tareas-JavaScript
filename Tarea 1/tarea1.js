@@ -5,6 +5,7 @@ let numero_2;
 let numero_3;
 let maximo;
 let minimo;
+let hola = "Hola mundo!"
 
 function login() {
     usuario = prompt("Ingrese el usuario")
@@ -71,4 +72,8 @@ function numeros() {
                 console.log("el menor es:" + minimo) 
             }
     }
+}
+
+function mostrar(){
+    console.log(hola)
 }
